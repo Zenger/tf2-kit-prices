@@ -159,7 +159,7 @@ class TF2Kit {
 
     insertHTML() {
         if (document.querySelector('#zenger-fab-results')) return;
-        var html = `<div id="zenger-fab-results"><table class="z-results"><thead><tr><th><a href="#" class="z-sort-name">Item</a><span class="z-sort-name-dir"></span></th><th><a href="#" class="z-sort-price">Price</a><span class="z-sort-price-dir"></span></th></tr></thead><tbody></tbody></table><div class='z-footnote'><a style="float:left;padding-left:16px;" target="_blank" href="https://steamcommunity.com/tradeoffer/new/?partner=90642500&token=74Xde02S"><small>Donate</small></a><a href="#" style="float:right;margin-right:13px;" class='btn_small btn_grey_white_innerfade' id='z-cancel-transactions'><span>STOP</span></a></div></div>`;
+        var html = `<div id="zenger-fab-results"><table class="z-results"><thead><tr><th><a href="#" class="z-sort-name">Item</a><span class="z-sort-name-dir"></span></th><th><a href="#" class="z-sort-price">Price</a><span class="z-sort-price-dir"></span></th></tr></thead><tbody></tbody></table><div class='z-footnote'><span style='float:left;padding-left:16px;'><small><a target="_blank" href="https://steamcommunity.com/tradeoffer/new/?partner=90642500&token=74Xde02S"><small>Donate</small></a> | <a target="_blank" href="https://github.com/Zenger/tf2-kit-prices">Code</a></small> </span><a href="#" style="float:right;margin-right:13px;" class='btn_small btn_grey_white_innerfade' id='z-cancel-transactions'><span>STOP</span></a></div></div>`;
         var htmlTag  = document.createElement('div'); htmlTag.innerHTML = html; document.querySelector('#active_inventory_page').appendChild( htmlTag );
         this.bindSortButtons();
     }
