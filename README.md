@@ -8,7 +8,9 @@ It's an userscript that pulls your steam inventory data, then converts your fabr
 # How to use 
 Once installed click the green button "Earnings" to start parsing your inventory data.
 ![Earnings Button](https://github.com/Zenger/tf2-kit-prices/raw/main/screenshot-earnings-button.png)
+
 Then wait for the script to display resutls, you can stop/restart at any time.
+![Earnings Button](https://github.com/Zenger/tf2-kit-prices/raw/main/screenshot-results.png)
 
 # Notes
 It has integrated cache system it will only fetch your inventory on Execute and hold that data for an hour (default) and hold steam inventory prices for 15 minutes ( default ).
