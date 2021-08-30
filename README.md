@@ -10,7 +10,7 @@ Once installed click the green button "Earnings" to start parsing your inventory
 
 ![Earnings Button](https://github.com/Zenger/tf2-kit-prices/raw/main/screenshot-earnings-button.png)
 
-Then wait for the script to display resutls, you can stop/restart at any time.
+Then wait for the script to display results, you can stop/restart at any time.
 
 ![Earnings Button](https://github.com/Zenger/tf2-kit-prices/raw/main/screenshot-results.png)
 
