@@ -11,8 +11,8 @@
 // ==/UserScript==
 
 
-const INVENTORY_CACHE_TIME = 15000;
-const MARKET_CACHE_TIME    = 15000;
+const INVENTORY_CACHE_TIME = 3600000; // 1 hr
+const MARKET_CACHE_TIME    = 300000;  // 5 min
 const REQUEST_DELAY        = 5000;
 const STEAM_ID = unsafeWindow.UserYou.strSteamId || prompt(`Couldn't determine STEAM ID, please enter STEAM ID 64`);
 const DEFAULT_SORT_DIRECTION = 0; // 0 ALPH DESC, 1 ALPH ASC, 2 PRICE ASC, 3 PRICE DESC
